@@ -1,0 +1,22 @@
+{
+  "name": "todoist",
+  "version": "1.0.0",
+  "description": "Assignment 2 Wizeline Academy",
+  "main": "index.js",
+  "scripts": {
+    "test": "newman run ./collection/Todoist.postman_collection.json -e ./envVariables/Environment.postman_environment.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivansanchez010493/todoist.git"
+  },
+  "author": "oscar ivan sanchez acosta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivansanchez010493/todoist/issues"
+  },
+  "homepage": "https://github.com/ivansanchez010493/todoist#readme",
+  "dependencies": {
+    "newman": "^5.2.2"
+  }
+}
